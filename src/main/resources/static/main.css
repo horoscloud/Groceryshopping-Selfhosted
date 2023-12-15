@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+}
+
+header{
+
+    text-align: center;
+    padding: 1vh;
+}
+
+@media only screen and (max-width: 992px) {
+    #item-create-form.form-inline .form-control,
+    #item-create-form.form-inline .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #item-create-form.form-inline .btn {
+        text-align: center;
+    }
+
+    .form-inline input,
+    .form-inline button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form-inline button {
+        text-align: center;
+    }
+}
+
+
+header h1{
+
+}
+
+.header-links-a{
+    background-color: white;
+    color: black;
+    border: 2px solid #0388fc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.header-links-a:hover, .header-links-a:active{
+    background-color: #0388fc;
+    color: white;
+    text-decoration: none;
+}
+
+.table-button{
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.custom-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.full-width-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.full-width-table td{
+    width: 20%;
+}
+
+
+
+
